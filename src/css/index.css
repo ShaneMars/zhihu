@@ -1,0 +1,300 @@
+body {
+    font-family: 'Helvetica Neue',Helvetica,Arial,sans-serif;
+    font-size: 13px;
+    line-height: 1.7;
+    word-wrap: break-word;
+    color: #222;
+    background-color: #fff;
+}
+a {
+	text-decoration: none;
+    color: #259;
+}
+.feed-item+.feed-item {
+    border-top: 1px solid #eee;
+}
+.feed-item {
+    padding: 10px 0;
+    position: relative;
+    margin-left: 0;
+    outline: 0;
+}
+.feed-item .avatar {
+    float: left;
+    margin: 3px 0 0;
+}
+.feed-item .avatar, .feed-item .avatar a, .feed-item .avatar img {
+    display: block;
+    width: 38px;
+    height: 38px;
+}
+.feed-item .avatar img {
+    border-radius: 3px;
+}
+.feed-main {
+    margin-left: 48px;
+}
+.feed-source, .feed-source a {
+    color: #999;
+}
+.feed-source a.follow-topic {
+    color: #259;
+}
+body, ul, ol, li, p, h1, h2, h3, h4, h5 {
+    margin: 0;
+    padding: 0;
+}
+h1, h2, h3, h4, h5 {
+    font-weight: 700;
+    font-size: 14px;
+    outline: 0;
+}
+.feed-item .feed-content h2 {
+    margin-right: 20px;
+}
+.toggle-expand.btn-toggle-question-detail {
+    padding: 0;
+    display: none;
+}
+a.toggle-expand.btn-toggle-question-detail {
+    margin-bottom: 5px;
+    text-decoration: none;
+    color: #999;
+    font-size: 13px;
+}
+a.toggle-expand.btn-toggle-question-detail span {
+    font-size: 12px;
+    color: #259;
+    padding: 3px;
+    border-radius: 2px;
+}
+.feed-item .entry-body, .feed-item .zm-item-answer {
+    margin-top: 3px;
+}
+.feed-item .entry-body {
+    position: relative;
+}
+.zm-item-vote {
+    position: absolute;
+    left: -48px;
+}
+.feed-item .zm-item-vote {
+    margin-top: -1px;
+}
+.zm-item-vote-count {
+    display: block;
+    color: #698ebf;
+    height: 24px;
+    line-height: 24px;
+    width: 38px;
+    border-radius: 3px;
+    border: 0;
+    cursor: pointer;
+    background: #eff6fa;
+    font-weight: 700;
+    font-weight: 500;
+    text-align: center;
+    text-decoration: none;
+    overflow: hidden;
+    -webkit-text-size-adjust: none;
+}
+.zm-item-answer-author-info {
+    margin: 0 0 1px;
+}
+.summary-wrapper {
+    width: 100%;
+    max-width: 460px;
+    color: #999;
+    word-wrap: normal;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.zm-item-answer-author-info .author-link {
+    font-weight: 700;
+}
+.zm-item-answer-author-info a {
+    color: inherit;
+}
+.icon-badge-best_answerer {
+    background-size: contain;
+}
+.OrgIcon, .icon-badge {
+    cursor: pointer;
+}
+.zg-link+.icon-badge, .author-link+.icon-badge, .name+.icon-badge, .zu-autocomplete-row-name .icon-badge, .author-link-line+.icon-badge {
+    margin-left: 3px;
+    margin-right: 3px;
+    vertical-align: -2px;
+    height: 14px;
+    width: 14px;
+}
+.summary-wrapper .author-link-line, .summary-wrapper .badge-summary {
+    color: #222;
+}
+.badge-summary a {
+    color: #222;
+}
+.zm-item-answer-author-info .bio {
+    margin: 3px 0;
+    color: #999;
+}
+.zh-summary {
+    -webkit-tap-highlight-color: rgba(225,225,225,.5);
+    position: relative;
+    cursor: pointer;
+}
+.zh-summary::after {
+	content:'';
+	display: block;
+	clear:both;
+}
+strong, b {
+    font-weight: bold;
+}
+a.toggle-expand, .summary-tail-button, .CardAdFeed-button {
+    display: inline-block;
+    padding: 0 3px;
+    border-radius: 2px;
+    font-size: .9em;
+}
+.zm-item-meta {
+    position: relative;
+    margin-bottom: 5px;
+}
+.feed-item .zm-item-meta {
+    margin-bottom: 0;
+}
+.zm-meta-panel {
+    padding: 5px 0;
+    margin-bottom: -5px;
+    background: #fff;
+}
+.zm-item-meta .zm-meta-panel {
+    background: transparent;
+}
+.zm-meta-panel>a, .zm-meta-panel>span {
+    color: #999;
+    vertical-align: middle;
+}
+.meta-item:first-child, .zg-bull+.meta-item {
+    margin-left: 0;
+}
+.zm-meta-panel .zg-follow {
+    color: #999;
+}
+i, em {
+    font-style: italic;
+}
+i[class^=z-icon-], i[class*=" z-icon-"] {
+    display: inline-block;
+    line-height: 10px;
+    vertical-align: 0;
+    background-repeat: no-repeat;
+    margin-right: 5px;
+}
+.meta-item {
+    margin-left: 7px;
+    color: #999;
+}
+.z-icon-comment {
+    width: 9px;
+    height: 10px;
+    background-position: -28px -22px;
+}
+.z-icon-follow {
+    width: 8px;
+    height: 9px;
+    background-position: -97px -23px;
+}
+.z-icon-thank {
+    width: 10px;
+    height: 10px;
+    background-position: -41px -22px;
+}
+.goog-inline-block {
+    display: inline-block;
+    position: relative;
+}
+.z-icon-share {
+    width: 11px;
+    height: 10px;
+    background-position: -67px -22px;
+}
+.z-icon-collect {
+    width: 7px;
+    height: 10px;
+    background-position: -56px -22px;
+}
+.zg-bull {
+    padding: 0 3px;
+    color: #BBB;
+    font-family: Arial;
+}
+.zm-meta-panel>a, .zm-meta-panel>span {
+    color: #999;
+    vertical-align: middle;
+}
+.meta-item:first-child, .zg-bull+.meta-item {
+    margin-left: 0;
+}
+.item-collapse {
+    float: right;
+    display: none;
+    margin: 0;
+    padding: 1px 6px 0;
+    background: 0 0;
+    border: 0;
+    border-radius: 3px;
+    outline: 0;
+    cursor: pointer;
+    -webkit-transition: background-color .2s,visibility .2s,opacity .2s,-webkit-transform .2s;
+    transition: background-color .2s,visibility .2s,opacity .2s,-webkit-transform .2s;
+    transition: background-color .2s,visibility .2s,opacity .2s,transform .2s;
+    transition: background-color .2s,visibility .2s,opacity .2s,transform .2s,-webkit-transform .2s;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+.z-icon-fold {
+    width: 8px;
+    height: 9px;
+    background-position: -135px -22px;
+}
+.badge-summary+.bio::before {
+    content: ' • ';
+}
+.zu-edit-button {
+    color: #999;
+    display: inline-block;
+    font-size: 11px;
+    -webkit-text-size-adjust: none;
+    font-weight: 400;
+    padding: 0 5px 0 2px;
+    margin: 0 0 0 2px;
+}
+.author-link-line+.bio::before, .author-link-line+.badge-summary::before {
+    content: '，';
+    color: #222;
+}
+.zh-summary .inline-img, .CardAdFeed-image {
+    float: left;
+    height: 112px;
+    width: 200px;
+    border-radius: 4px;
+    margin: 1px 10px 5px 0;
+}
+.zh-summary .origin_image {
+    cursor: pointer;
+}
+.feed-item{
+    border-top: 1px solid #eee;
+}
+.zu-main-content-inner {
+    position: relative;
+    margin: 0 328px 0 0;
+}
+button{
+    float:right;
+}
